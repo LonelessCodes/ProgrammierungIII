@@ -5,29 +5,14 @@
 		},
 		{
 			"path": "Praktikum B"
-		},
-		{
-			"path": "Praktikum C"
-		},
-		{
-			"path": "Praktikum D"
-		},
-		{
-			"path": "Praktikum E"
-		},
-		{
-			"path": "Praktikum F"
-		},
-		{
-			"path": "Praktikum G"
-		},
-		{
-			"path": "Praktikum H"
 		}
 	],
 	"extensions": {
 		"recommendations": [
 			"vscjava.vscode-java-pack"
 		]
+	},
+	"settings": {
+		"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx8G -Xms100m"
 	}
 }
