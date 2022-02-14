@@ -1,5 +1,9 @@
 package src;
-public class JavaGotchi {
+
+/**
+ * JavaGotchi
+ */
+public class Aufgabe04 {
    private static enum State {
       HAPPY, HUNGRY, EATING, STARVED
    };
@@ -76,7 +80,7 @@ public class JavaGotchi {
    }
 
    public static void main(String[] args) {
-      JavaGotchi gotchi = new JavaGotchi();
+      Aufgabe04 gotchi = new Aufgabe04();
       gotchi.startGame();
    }
 }
