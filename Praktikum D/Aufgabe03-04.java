@@ -17,10 +17,7 @@ public class Aufgabe03 {
     }
 
     public static void zeigeVektor(int[] a) throws IllegalArgumentException {
-        if (a == null) {
-            throw new IllegalArgumentException("Vektor darf nicht null sein.");
-            // oder auch ein assert a != null: "Vektor darf nicht null sein.";
-        }
+        assert a != null: "Vektor darf nicht null sein.";
 
         System.out.print("{ ");
         for (int elem : a) {
