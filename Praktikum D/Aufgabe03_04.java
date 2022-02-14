@@ -2,7 +2,7 @@
  * java -ea Aufgabe03
  */
 
-public class Aufgabe03 {
+public class Aufgabe03_04 {
     public static int[] addVektoren(int[] a, int[] b) throws IllegalArgumentException {
         if (a.length != b.length) {
             throw new IllegalArgumentException("Beide Vektoren müssen den vom gleichen Grad sein.");
@@ -42,3 +42,11 @@ public class Aufgabe03 {
         zeigeVektor(f);
     }
 }
+
+/**
+ * Für vom Programm abzufangende Fehler eignen sich Exceptions mehr.
+ * Für Abfangen von unerwarteten Programmargumenten einen sich Assertions mehr.
+ * Persoenlich wuerde ich Assertions nur im Debugbetrieb nutzen zum zur Entwicklung
+ * Fehler schnell abfangen zu können und in Produktbuilds derartige Fehler im
+ * Programm durch Weitergabe von Exceptions und programmeigener Fehlerausgabe lösen.
+ */
