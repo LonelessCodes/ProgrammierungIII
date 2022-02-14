@@ -4,14 +4,14 @@
 // Aufgabe a
 int x = 7;
 while (x < 12) {
-    ; // <Anweisung>
+    <Anweisung>
     x++;
 }
 
 // Aufgabe b
 int y = 0, x = 10;
 while (x > y; ){
-    ; // <Anweisung>
+    <Anweisung>
     y++, x--;
 }
 
