@@ -1,6 +1,6 @@
 # Aufgabe 14
 
-```
+```java
 // Aufgabe a
 int x = 7;
 while (x < 12) {

@@ -28,22 +28,28 @@ a=b ist eine Zuweisung von b auf a und a==b vergleicht die beiden Werten in a un
 
 # Aufgabe 06
 
-    boolean b1 = false, b2 = false;
-    boolean c = (b1 && b2) || !b2;
+```java
+boolean b1 = false, b2 = false;
+boolean c = (b1 && b2) || !b2;
+```
 
 ## Korrektur:
 
-    boolean cFunction(boolean b1, boolean b2) {
-        return (b1 && b2) || !b2;
-    }
+```java
+boolean cFunction(boolean b1, boolean b2) {
+    return (b1 && b2) || !b2;
+}
+```
 
 # Aufgabe 07
 
-    c = true
-    d = false
-    e = false
-    f = true
-    g = false
+```java
+c = true
+d = false
+e = false
+f = true
+g = false
+```
 
 # Aufgabe 08
 
@@ -53,7 +59,7 @@ Bei Typumwandlungen kann es zu Datenverlust kommen, wenn der ursprungsdatentyp k
 
 * while: Wollen Sie eine Schleife so lange ausführen, wie ein bestimmter Ausdruck oder Wert `true` ist, nehmen Sie die `while`-Schleife.
 
-    ```
+    ```java
     // gib bei jeder Eingabe "Hello World" aus, bis das Programm mit "q" beendet wird
     while ((char) System.in.read() != 'q') {
         System.out.println("Hello World");
@@ -62,7 +68,7 @@ Bei Typumwandlungen kann es zu Datenverlust kommen, wenn der ursprungsdatentyp k
 
 * do while: Wollen Sie eine Schleife, die immer einmal ausgeführt wird und danach erst die Schleifenbedingung vor jeder Iteration evaluiert wird, nehmen Sie die `do while`-Schleife.
 
-    ```
+    ```java
     char ch;
     do {
         // Muss immer mindestens einmal ausgeführt werden, um den Nutzer aufzufordern Input einzugeben
@@ -74,7 +80,7 @@ Bei Typumwandlungen kann es zu Datenverlust kommen, wenn der ursprungsdatentyp k
 
 * for: Wenn Sie eine bestimmte Anzahl an Iterationen ausführen wollen und alles Notwendige dafür in einer Zeile zusammengefasst haben wollen, ist die `for`-Schleife das Beste für Sie! Im Schleifenkopf lassen sich Variablen erstellen, die nur für den Schleifenkörper gültig sind, Schleifenbedingungen festlegen, sowie Ausdrücke, die nach jeder Iteration evaluiert werden.
 
-    ```
+    ```java
     // Gib das Quadrat aller Zahlen bis 10 aus
     for (int x = 0; x <= 10; x++) {
         System.out.println("x = %d, x^2 = %d", x, x * x);
@@ -83,7 +89,7 @@ Bei Typumwandlungen kann es zu Datenverlust kommen, wenn der ursprungsdatentyp k
 
 * for each: Müssen Sie über alle Elemente in einer Array iterieren? Probieren Sie die `for each`-Schleife!
 
-    ```
+    ```java
     String array[] = { "Ron", "Harry", "Hermoine" }; 
 
     // enhanced for loop 
