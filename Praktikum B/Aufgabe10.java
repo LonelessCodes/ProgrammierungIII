@@ -1,5 +1,3 @@
-package src;
-
 public class Aufgabe10 {
     public static String auffuellen(String text, int key) {
         String textAufgefuellt = new String(text);

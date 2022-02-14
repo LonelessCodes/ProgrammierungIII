@@ -1,5 +1,3 @@
-package src;
-
 public class Aufgabe06 {
     public static boolean isUpperCase(char ch) {
         return ch >= 'A' && ch <= 'Z';
