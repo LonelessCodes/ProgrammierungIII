@@ -1,3 +1,4 @@
+package src;
 public class JavaGotchi {
    private static enum State {
       HAPPY, HUNGRY, EATING, STARVED
