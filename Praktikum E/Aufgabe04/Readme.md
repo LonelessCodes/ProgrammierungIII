@@ -1,0 +1,1 @@
+Konnte den Code nicht zum laufen bringen, da beim Einlesen des zweiten Teams der Scanner sofort scanner.hasNextLine() = false ausgibt und damit keine Werte für Namen, Trainer, Torwart, usw. einliest. Und frankly habe ich nicht die Zeit das weiter zu debuggen.

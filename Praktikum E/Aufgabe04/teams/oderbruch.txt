@@ -1,0 +1,13 @@
+Oderbrucher SK
+Ferdinand Jaeger, 50, 3
+T. Faenger, 25, 9, 1, 6, 8
+H. Faustkeil, 33, 8, 4, 6
+R. Hoehlenmaler, 32, 9, 9, 2
+L. Steinzeit, 29, 10, 9, 9
+R. Birkenpech, 25, 10, 9, 5
+Z. Fallensteller, 27, 7, 7, 4
+K. Zahnlos, 22, 10, 8, 10
+J. Haeuptling, 26, 7, 10, 3
+A. Baerenstark, 23, 8, 8, 4
+R. Kopfnuss, 19, 9, 8, 9
+L. Sammler, 28, 4, 10, 2
