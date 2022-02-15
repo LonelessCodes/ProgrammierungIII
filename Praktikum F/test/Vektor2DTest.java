@@ -44,4 +44,6 @@ public class Vektor2DTest {
         Vektor2D b = new Vektor2D(2.0, 10013.5);
         assertFalse(b.isNullVektor());
     }
+
+    // ....
 }
