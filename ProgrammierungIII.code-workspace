@@ -14,11 +14,15 @@
 		},
 		{
 			"path": "Praktikum E"
+		},
+		{
+			"path": "Praktikum F"
 		}
 	],
 	"extensions": {
 		"recommendations": [
-			"vscjava.vscode-java-pack"
+			"vscjava.vscode-java-pack",
+			"vscjava.vscode-java-test"
 		]
 	},
 	"settings": {
