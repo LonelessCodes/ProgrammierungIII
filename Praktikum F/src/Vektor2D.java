@@ -37,14 +37,14 @@ public class Vektor2D {
     }
 
     // Arithmetic
-    public Vektor2D add(Vektor2D a, Vektor2D b) {
-        return new Vektor2D(a.getX() + b.getX(), a.getY() + b.getY());
+    public Vektor2D add(Vektor2D vec) {
+        return new Vektor2D(this.getX() + vec.getX(), this.getY() + vec.getY());
     }
-    public Vektor2D sub(Vektor2D a, Vektor2D b) {
-        return new Vektor2D(a.getX() - b.getX(), a.getY() - b.getY());
+    public Vektor2D sub(Vektor2D vec) {
+        return new Vektor2D(this.getX() - vec.getX(), this.getY() - vec.getY());
     }
-    public Vektor2D mult(Vektor2D a, Vektor2D b) {
-        return new Vektor2D(a.getX() * b.getX(), a.getY() * b.getY());
+    public Vektor2D mult(Vektor2D vec) {
+        return new Vektor2D(this.getX() * vec.getX(), this.getY() * vec.getY());
     }
 
     // Compare
