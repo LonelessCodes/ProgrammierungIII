@@ -16,7 +16,7 @@ public class Aufgabe01 extends BasisFenster {
     Color aktuelleFarbe = Color.BLACK;
 
     public Aufgabe01() {
-        super("Graphische Ausgabe", 800, 600);
+        super("MS Paint 2.0", 800, 600);
 
         Panel panel = new Panel();
         panel.setBackground(new Color(240, 240, 240));
